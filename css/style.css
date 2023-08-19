@@ -26,11 +26,10 @@ a:link {
 
 .map {
   position: fixed;
-  left: 13.5%;
+  left:250px;
   top: 15px;
-  bottom: 10px;
-  width: 30%;
-  max-height: 95%;
+  width: 900px;
+  max-height: 50%;
   background-color: powderblue;
 }
 
@@ -50,9 +49,9 @@ a:link {
 /* plota */
 .plota {
   position: fixed;
-  left: 44%;
+  left: 1160px;
   top: 15px;
-  max-width: 350px;
+  max-width: 310px;
   max-height:95%;
   bottom: 10px;
 }
@@ -69,7 +68,7 @@ input.buttonb {
   float: left;
   position: fixed;
   overflow: hidden;
-  left: 7.5%;
+  left: 120px;
   top: 1%;
 
   background-color: #C84F56;
@@ -115,7 +114,7 @@ body {
 /* The actual timeline (the vertical ruler) */
 .timeline {
   position: relative;
-  width: 280px;
+  width: 250px;;
   margin: 0 auto;
 }
 

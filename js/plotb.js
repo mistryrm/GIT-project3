@@ -12,11 +12,12 @@
 // add div to html
 
 // when refresh clean div
-document.getElementById("plotb").innerHTML = "";
 
-    function timeline(){
+function timeLine(){
+    // clean area for refresh function
+    document.getElementById("plotb").innerHTML = "";
+
     d3.json(met_url).then(function(met_data){
-
         // console.log(met_data);
         d3.json(map_url).then(function(map_data){
 
@@ -215,3 +216,5 @@ document.getElementById("plotb").innerHTML = "";
 
     });
 }
+
+timeLine();

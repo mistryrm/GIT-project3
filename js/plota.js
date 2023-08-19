@@ -147,7 +147,7 @@ d3.json(met_url).then(function(met_data){
         let bothPercent = [] ;
         let dogPercent = [] ;
 
-        for( i in yearName ){
+        for( i in yearName ){ // sum = 0 data doesn't exist on this list. since yearName is sorted based on exist objects
             // pick the year
             let year = yearName[i]
             let yearCount = groupBy[ year ] ;
@@ -201,6 +201,13 @@ d3.json(met_url).then(function(met_data){
             
             barmode: 'stack',
             showlegend: false,
+            margin: {
+                l: 10,
+                r: 10,
+                b: 50,
+                t: 70,
+                pad:10
+              },
 
             title: {
                 text : "Trend of Cat & Dog</br></br>Objects from The Metropolitan Museum of Art" ,
