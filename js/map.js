@@ -158,6 +158,7 @@ d3.json(met_url).then(function(met_data){
         // organize data, group by count
         // create set for yearCenturyMultiple
         let yearGroup = countByKey( met_data , "yearCenturyMultiple") ;
+	console.log("yearGroup:",yearGroup);
         let yearKeys = Object.keys(yearGroup) ;        
         console.log( "yearKeys:" , yearKeys) ;
 
