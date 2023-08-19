@@ -27,7 +27,7 @@ function countByKey( jsonData , countKey ){
             tempCount[ findValue ] = tempCount[ findValue ] + 1 ;
         }
     };
-    
+    console.log("----------function countByKey:", tempCount);
     return tempCount;
 };
 
@@ -158,21 +158,20 @@ d3.json(met_url).then(function(met_data){
         // organize data, group by count
         // create set for yearCenturyMultiple
         let yearGroup = countByKey( met_data , "yearCenturyMultiple") ;
-	console.log("yearGroup:",yearGroup);
         let yearKeys = Object.keys(yearGroup) ;        
-        console.log( "yearKeys:" , yearKeys) ;
+        console.log( "MAP yearKeys:" , yearKeys) ;
 
         // create set for geoCode
         let geoGroup = countByKey( met_data , "geoCode") ;
         let geoKeys = Object.keys(geoGroup) ;        
-        console.log( "geoKeys:" , geoKeys) ;
+        console.log( "MAP geoKeys:" , geoKeys) ;
         
-        // create set for geoCode
+        // create set for team
         let teamGroup = countByKey( met_data , "team") ;        
         // add sum to team
         teamGroup[ "sum" ] = 0 ;
         let teamKeys = Object.keys(teamGroup) ;
-        console.log( "teamKeys:" , teamKeys) ;
+        console.log( "MAP teamKeys:" , teamKeys) ;
 
         // group by [year][geo][team][value_counts]
         // base 0 {}
@@ -197,11 +196,11 @@ d3.json(met_url).then(function(met_data){
             let team = met_data[i]["team"] ;
         
             if( year == null ){ // skip data with blank content
-                console.log( year );
+                console.log( "MAP" , year );
             }else if( geo == null ){
-                console.log( geo );
+                console.log( "MAP", geo );
             }else if( team == null ){
-                console.log( team );
+                console.log( "MAP" , team );
             }else{
                 groupBy[ year ][ geo ][ team ] = groupBy[ year ][ geo ][ team ] + 1 ; 
             }
@@ -221,7 +220,7 @@ d3.json(met_url).then(function(met_data){
             }
         }
         
-        console.log( "Map groupBy count:", groupBy);
+        console.log( "MAP groupBy count:", groupBy);
 
         // add data to map
         // select data by drowdown year . Layer of the map
@@ -234,7 +233,7 @@ d3.json(met_url).then(function(met_data){
             let selectYear = yearKeys[j] ;
             // console.log(selectYear) ;
             let selectCount = groupBy[selectYear] ;
-            // console.log( "selectCount:" , selectCount );
+            // console.log( "MAP selectCount:" , selectCount );
 
             let selectLayer = layerName[selectYear] ;
             
