@@ -190,7 +190,7 @@ d3.json(met_url).then(function(met_data){
                 <p>Date: ${ tempObject.year + ", "+ tempObject.yearCentury}</p>
                 <p>From: ${tempCtext}</p>
                 <p>Medium: ${tempObject.medium}</p>
-                <img src="${tempObject.objectImage}" alt="${tempObject.title}" style="max-width:400px;max-height:400px;" >
+                <img src="${tempObject.objectImage}" alt="${tempObject.title}" style="max-width:200px;max-height:200px;" >
             </div>
             </div>`;
 

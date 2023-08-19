@@ -11,31 +11,12 @@ html {
   height: 100%;
 }
 
-.legend {
-  line-height: 18px;
-  background: rgba(255,255,255,0.8);
-  border:rgba(255,255,255,0.8);
-  border-width: 5px;
-  opacity: 0.9 ;
-  padding: 10px;
-  border-radius: 10px;
-}
-
-.legend i {
-  width: 18px;
-  height: 18px;
-  float: left;
-  background: rgba(255,255,255,0.8);
-  margin-right: 4px;
-  opacity: 1 ;
-}
-
 p {
-  font-size: 12px;
+  font-size: 10px;
   line-height: 1.1;
 }
 h4 {
-  font-size: 16px;
+  font-size: 12px;
   line-height: 1.1;
 }
 
@@ -45,11 +26,11 @@ a:link {
 
 .map {
   position: fixed;
-  left: 500px;
+  left: 13.5%;
   top: 15px;
   bottom: 10px;
-  width: 1000px;
-  max-height: 1030px ;
+  width: 30%;
+  max-height: 95%;
   background-color: powderblue;
 }
 
@@ -63,31 +44,24 @@ a:link {
 }
 
 .leaflet-popup-content {
-  width: 250px;
+  width: 150px;
 }
 
 /* plota */
 .plota {
   position: fixed;
-  left: 1520px;
+  left: 44%;
   top: 15px;
-  max-width: 550px;
-  max-height:1030px ;
+  max-width: 350px;
+  max-height:95%;
+  bottom: 10px;
 }
 
 /* timeline */
 .plotb {
   position: absolute;
-  left: 10px;
-  top: 45px;
-}
-
-input.buttonc {
-  float: left;
-  position: absolute;
-  left: 30px;
-  top: 15px;
-  font-size: 16px;
+  left: 5px;
+  top: 30px;
 }
 
 /* CSS */
@@ -95,8 +69,8 @@ input.buttonb {
   float: left;
   position: fixed;
   overflow: hidden;
-  left: 360px;
-  top: 10px;
+  left: 7.5%;
+  top: 1%;
 
   background-color: #C84F56;
   border-radius: 8px;
@@ -107,7 +81,7 @@ input.buttonb {
   font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 500;
-  height: 30px;
+  height: 20px;
   line-height: 10px;
   list-style: none;
   margin: 0;
@@ -128,7 +102,6 @@ input.buttonb {
   color: #C84F56;
 }
 
-
 * {
   box-sizing: border-box;
 }
@@ -142,7 +115,7 @@ body {
 /* The actual timeline (the vertical ruler) */
 .timeline {
   position: relative;
-  width: 500px;
+  width: 280px;
   margin: 0 auto;
 }
 
@@ -154,7 +127,7 @@ body {
   background-color: white;
   top: 0;
   bottom: 0;
-  left: 25px; /* 50% */
+  left: 5px; /* 50% */
   margin-left: -3px;
 }
 
@@ -171,19 +144,14 @@ body {
 .container::after {
   content: '';
   position: absolute;
-  width: 20px;
-  height: 20px;
-  right: -20px;
+  width: 10px;
+  height: 10px;
+  right: 1px;
   background-color: #C84F56;
   border: 4px solid #FFCBCB;
   top: 0px;
   border-radius: 90%;
   z-index: 1;
-}
-
-/* Place the container to the left */
-.left {
-  left: 0;
 }
 
 /* Place the container to the right */
@@ -207,13 +175,13 @@ body {
 /* Full-width containers */
 .container {
   width: 100%;
-  padding-left: 35px;
-  padding-right: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /* Make sure that all arrows are pointing leftwards */
 .container::before {
-  left: 60px;
+  left: 20px;
   border: medium solid white;
   border-width: 10px 10px 10px 0;
   border-color: transparent white transparent transparent;

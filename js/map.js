@@ -76,7 +76,7 @@ var layers = {
     BOTH: new L.LayerGroup()
 };
   
-// Initialize an special icons.
+// Initialize an special icons. 
 var leafIcon = {
     smallCat: L.Icon.extend({
         options: {
@@ -303,10 +303,10 @@ d3.json(met_url).then(function(met_data){
                             };
                         };
 
-                        if( popupObject.objectImage == "" ){
+                        if( popupObject.objectImage == "" ){ // add img html if the image exist
                             var picLine = "" ;
                         }else{
-                            var picLine = `<img src="${popupObject.objectImage}" alt="${popupObject.title}" style="max-width:200px;max-height:200px;" >` ;
+                            var picLine = `<img src="${popupObject.objectImage}" alt="${popupObject.title}" style="max-width:150px;max-height:150px;" >` ;
                         }
 
                         var popupHTML = `<p class="popupheader" ><a href="${popupObject.objectURL}">Title: ${popupObject.title}</a></p >
@@ -324,7 +324,7 @@ d3.json(met_url).then(function(met_data){
                             icon:  heartIcon
                         });
                         heartMarker.addTo( layers[ selectLayer ] ).bindPopup( oneObject("both") );
-
+                        // add to another layer as well, difficult to click
                         heartMarker.addTo( layers[ "BOTH" ] ).bindPopup( oneObject("both") );
                     }
 

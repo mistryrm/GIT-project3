@@ -200,12 +200,13 @@ d3.json(met_url).then(function(met_data){
         var layout = {
             
             barmode: 'stack',
+            showlegend: false,
 
             title: {
                 text : "Trend of Cat & Dog</br></br>Objects from The Metropolitan Museum of Art" ,
                 font : {
                     family: "Helvetica",
-                    size: 18,
+                    size: 14,
                     color: "#52C5CA"
                 }
             },
@@ -214,7 +215,7 @@ d3.json(met_url).then(function(met_data){
                   text: '% Percentage of Total Objects in Century',
                   font: {
                     family: 'Helvetica',
-                    size: 14,
+                    size: 12,
                     color: '#E9BE68'
                   }
                 },
@@ -226,7 +227,7 @@ d3.json(met_url).then(function(met_data){
                   text: 'Century',
                   font: {
                     family: 'Helvetica',
-                    size: 14,
+                    size: 12,
                     color: '#E9BE68'
                   }
                 }
