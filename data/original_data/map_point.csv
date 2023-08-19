@@ -1,0 +1,118 @@
+country,latitude,longitude,geoCode
+Achaemenid,32,53,c_1
+Africa,7,21,c_2
+African Peruvian,7,21,c_2
+American,38,-97,c_3
+American or European,51,9,c_4
+Argentina,-34,-64,c_5
+Argentinian,-34,-64,c_5
+Assyrian,32,53,c_1
+Australian,-27,133,c_6
+Austria,47.3333,13.3333,c_7
+Austrian,47.333,13.333,c_7
+Babylonian,32,53,c_1
+Belgian,50.833,4,c_8
+Belgium,50.8333,4,c_8
+Bohemian,49.75,15.5,c_9
+Brazilian,-10,-55,c_10
+British,54,-2,c_11
+British and American,54,-2,c_11
+Byzantine,39,22,c_12
+Byzantine Egypt,27,30,c_13
+Canada,60,-95,c_14
+Canadian,60,-95,c_14
+Catalan,40,-4,c_15
+Celtic,53,-8,c_16
+Central European or French,46,2,c_17
+China,35,105,c_18
+Chinese,35,105,c_18
+Colombia or Ecuador,-2,-77.5,c_19
+Costa Rica or Panama,10,-84,c_20
+Cuban,21.5,-80,c_21
+Cypriot,35,33,c_22
+Czech,49.75,15.5,c_9
+Danish,56,10,c_23
+Democratic Republic of the Congo,0,25,c_24
+Dutch,52.5,5.75,c_25
+East French,46,2,c_17
+Egypt,27,30,c_13
+Egypt or Italy,42.833,12.833,c_26
+Egyptian,27,30,c_13
+Elamite,32,53,c_1
+England,54,-2,c_11
+Etruscan,42.833,12.833,c_26
+European,46,2,c_17
+First Nations,60,-95,c_14
+Flemish,50.833,4,c_8
+France,46,2,c_17
+French,46,2,c_17
+Gabon,-1,11.75,c_27
+German,51,9,c_4
+German American,51,9,c_4
+Germany,51,9,c_4
+Ghanaian,8,-2,c_28
+Great Britain,54,-2,c_11
+Greek,39,22,c_12
+Greek or Roman,39,22,c_12
+Guatemala or Mexico,15.5,-90.25,c_29
+Hittite,39,35,c_30
+Hungarian,47,20,c_31
+Hunkpapa Lakota,38,-97,c_3
+India,20,77,c_32
+Indian,20,77,c_32
+Indonesia,-5,120,c_33
+Iran,32,53,c_1
+Irish,53,-8,c_16
+Israeli,31.5,34.75,c_34
+Italian,42.833,12.833,c_26
+Italy,42.8333,12.8333,c_26
+Japan,36,138,c_35
+Japanese,36,138,c_35
+Kassite,27,30,c_13
+Mali,17,-4,c_36
+Mali or Ghana,8,-2,c_28
+Maya,23,-102,c_37
+Mexican,23,-102,c_37
+Mexico,23,-102,c_37
+Minoan,39,22,c_12
+Netherlandish,52.5,5.75,c_25
+Netherlands,52.5,5.75,c_25
+North French,46,2,c_17
+North India,20,77,c_32
+North Netherlandish,52.5,5.75,c_25
+North Netherlands,52.5,5.75,c_25
+Northern European,62,10,c_38
+Norwegian,62,10,c_38
+Parthian,32,53,c_1
+Peru,-10,-76,c_39
+Portuguese,39.5,-8,c_40
+possibly British,54,-2,c_11
+possibly French,46,2,c_17
+possibly Germany,51,9,c_4
+probably French,46,2,c_17
+Roman,39,22,c_12
+Romanian,46,25,c_41
+Russian,60,100,c_42
+Sasanian,32,53,c_1
+Scandinavian,32,53,c_1
+Scottish,54,-2,c_11
+Sierra Leone,8.5,-11.5,c_43
+South African,-29,24,c_44
+South German,51,9,c_4
+South Netherlandish,52.5,5.75,c_25
+South Netherlands,52.5,5.75,c_25
+Southern Netherlands,52.5,5.75,c_25
+Spain,40,-4,c_15
+Spanish,40,-4,c_15
+Sumerian,33,44,c_45
+Swedish,62,15,c_46
+Swiss,47,8,c_47
+Switzerland,47,8,c_47
+Thailand,15,100,c_48
+The Netherlands,52.5,5.75,c_25
+Tibet,35,105,c_18
+Turkey,39,35,c_30
+Ukrainian,49,32,c_49
+United States,38,-97,c_3
+Uruguayan,-33,-56,c_50
+Western India,20,77,c_32

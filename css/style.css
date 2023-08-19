@@ -1,0 +1,230 @@
+
+/* color https://www.schemecolor.com/miss-keane-powerpuff-girls.php */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+.legend {
+  line-height: 18px;
+  background: rgba(255,255,255,0.8);
+  border:rgba(255,255,255,0.8);
+  border-width: 5px;
+  opacity: 0.9 ;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.legend i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  background: rgba(255,255,255,0.8);
+  margin-right: 4px;
+  opacity: 1 ;
+}
+
+p {
+  font-size: 12px;
+  line-height: 1.1;
+}
+h4 {
+  font-size: 16px;
+  line-height: 1.1;
+}
+
+a:link {
+  color: #52C5CA;
+}
+
+.map {
+  position: fixed;
+  left: 500px;
+  top: 15px;
+  bottom: 10px;
+  width: 1000px;
+  max-height: 1030px ;
+  background-color: powderblue;
+}
+
+.popup{
+  font-size: 8px;
+}
+
+.popupheader{
+  font-size: 10px;
+  color: #52C5CA;
+}
+
+.leaflet-popup-content {
+  width: 250px;
+}
+
+/* plota */
+.plota {
+  position: fixed;
+  left: 1520px;
+  top: 15px;
+  max-width: 550px;
+  max-height:1030px ;
+}
+
+/* timeline */
+.plotb {
+  position: absolute;
+  left: 10px;
+  top: 45px;
+}
+
+input.buttonc {
+  float: left;
+  position: absolute;
+  left: 30px;
+  top: 15px;
+  font-size: 16px;
+}
+
+/* CSS */
+input.buttonb {
+  float: left;
+  position: fixed;
+  overflow: hidden;
+  left: 360px;
+  top: 10px;
+
+  background-color: #C84F56;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 30px;
+  line-height: 10px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 3px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.buttonb:hover,
+.buttonb:focus {
+  background-color: #FFCBCB;
+  color: #C84F56;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Set a background color */
+body {
+  background-color: #FFE9D8;
+  font-family: Helvetica, sans-serif;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  width: 500px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 4px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 25px; /* 50% */
+  margin-left: -3px;
+}
+
+/* Container around content */
+.container {
+  padding: 5px 5px;
+  position: relative;
+  background-color: inherit;
+  width: 90%;
+  word-wrap: normal;
+}
+
+/* The circles on the timeline */
+.container::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: -20px;
+  background-color: #C84F56;
+  border: 4px solid #FFCBCB;
+  top: 0px;
+  border-radius: 90%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -1px;
+}
+
+/* The actual content */
+.content {
+  padding: 10px 10px;
+  background-color: white;
+  position: relative;
+  border-radius: 10px;
+}
+
+/* Full-width containers */
+.container {
+  width: 100%;
+  padding-left: 35px;
+  padding-right: 25px;
+}
+
+/* Make sure that all arrows are pointing leftwards */
+.container::before {
+  left: 60px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+/* Make sure all circles are at the same spot */
+.left::after, .right::after {
+  left: 15px;
+}
+
+/* Make all right containers behave like the left ones */
+.right {
+  left: 0%;
+}
