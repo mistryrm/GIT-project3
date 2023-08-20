@@ -165,9 +165,39 @@ d3.json(met_url).then(function(met_data){
 
 
         // plot data
+        // vertical
+        // var traceCat = {
+        //     x: yearName, 
+        //     y: catPercent ,
+        //     name: 'Cat',
+        //     type: 'bar' ,
+        //     marker:{
+        //         color: "#C84F56" }
+        // };
+
+        // var traceBoth = {
+        //     x: yearName,
+        //     y: bothPercent ,
+        //     name: 'Cat & Dog',
+        //     type: 'bar',
+        //     marker:{
+        //         color: "#E9BE68" }
+        // };
+
+        // var traceDog = {
+        //     x: yearName,
+        //     y: dogPercent , 
+        //     name: 'Dog',
+        //     type: 'bar',
+        //     marker:{
+        //         color: "#52C5CA" }
+        // };
+
+        // horizontal
         var traceCat = {
             y: yearName, 
             x: catPercent ,
+            hovertemplate: '%{x}%' ,
             name: 'Cat',
             orientation: 'h',
             type: 'bar' ,
@@ -178,6 +208,7 @@ d3.json(met_url).then(function(met_data){
         var traceBoth = {
             y: yearName,
             x: bothPercent ,
+            hovertemplate: '%{x}%' ,
             name: 'Cat & Dog',
             orientation: 'h',
             type: 'bar',
@@ -188,6 +219,7 @@ d3.json(met_url).then(function(met_data){
         var traceDog = {
             y: yearName,
             x: dogPercent , 
+            hovertemplate: '%{x}%' ,
             name: 'Dog',
             orientation: 'h',
             type: 'bar',
@@ -203,7 +235,7 @@ d3.json(met_url).then(function(met_data){
             showlegend: false,
             margin: {
                 l: 10,
-                r: 10,
+                r: 30,
                 b: 50,
                 t: 70,
                 pad:10

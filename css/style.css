@@ -29,7 +29,7 @@ a:link {
   left:250px;
   top: 15px;
   width: 900px;
-  max-height: 50%;
+  max-height: 49%;
   background-color: powderblue;
 }
 
@@ -61,6 +61,25 @@ a:link {
   position: absolute;
   left: 5px;
   top: 30px;
+}
+
+/* selection for plotc */
+.barselect{
+  position: fixed;
+  left: 250px;
+  top: 52%;
+  font-size: 12px;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #52C5CA;
+}
+
+/* plotc */
+.plotc {
+  position: fixed;
+  left: 250px;
+  top: 54%;
+  width: 900px;
+  max-height: 100%;
 }
 
 /* CSS */

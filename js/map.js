@@ -116,8 +116,8 @@ var leafIcon = {
 
 // Create the map with our layers.
 let myMap = L.map("map", {
-    center: [0, 0],
-    zoom: 1,
+    center: [0, 20],
+    zoom: 2,
     layers: [ esri_tile, layers.BC]
 });
 
