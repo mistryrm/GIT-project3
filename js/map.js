@@ -127,7 +127,7 @@ let overlays = {
     "1st to 5th Century" :layers.ADI,
     "6th to 10th Century": layers.ADII,
     "11th to 15th Century": layers.ADIII,
-    "16th to 20th Century": layers.ADIV,
+    "16th to 21st Century": layers.ADIV,
     "Cats & Dogs" : layers.BOTH
 };
 
@@ -137,7 +137,7 @@ var layerName = {
     "1st to 5th Century" :"ADI",
     "6th to 10th Century": "ADII",
     "11th to 15th Century": "ADIII",
-    "16th to 20th Century": "ADIV"
+    "16th to 21st Century": "ADIV"
 }
   
 // Create a control for our layers, and add our overlays to it.
