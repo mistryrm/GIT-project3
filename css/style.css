@@ -38,7 +38,7 @@ a:link {
 }
 
 .popupheader{
-  font-size: 10px;
+  font-size: 12px;
   color: #52C5CA;
 }
 
@@ -47,7 +47,7 @@ a:link {
 }
 
 /* plota animation */
-.percentselect{
+.anination{
   position: fixed;
   left: 1160px;
   top: 15px;
@@ -61,9 +61,8 @@ a:link {
 .plota {
   position: fixed;
   left: 1160px;
-  top: 45px;
+  top: 15px;
   max-width: 310px;
-  max-height:95%;
   bottom: 10px;
 }
 

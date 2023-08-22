@@ -57,6 +57,7 @@ def welcome():
         <img src='https://c4.wallpaperflare.com/wallpaper/742/882/562/cat-figure-dog-wallpaper-preview.jpg'>
         <h4>Team 6 Project 3</h4>
         <h3><a href='https://miwiki612.github.io/GIT-project3/' >Visual Data Explorer: ^⌯𖥦⌯^ ੭ Cats VS Dogs ૮ ＾ﻌ＾ა</a></h3>
+        <h3><a href='https://KangnaParekh.github.io/project-3/' >Animation</a></h3>
         <h3><a href='http://127.0.0.1:5000/riddhi'>Timeline showcasing cat and dog art pieces based on the year they were made.</a></h3>
         <h4>Support by The Metropolitan Museum of Art Collection API</h4>
         Choice your team! API with json for objects<br/>
@@ -66,8 +67,9 @@ def welcome():
         </body></html>"""
     )
 
+
 @app.route("/riddhi")
-def Riddhi():
+def riddhi():
     return ("""
     <!DOCTYPE html>
     <html lang="en">
