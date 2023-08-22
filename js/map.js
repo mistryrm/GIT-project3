@@ -166,10 +166,9 @@ function setPopupContent(marker, item) {
     
         // Set the content of the popup
         var popupContent = `
-            <b>Team: ${item.team}</b><br>
+            <p class="popupheader"><a href="${item.objectURL}">Title: ${item.title}</a></p >
+            Team: ${item.team}<br>
             ${tempCtext}<br>
-            Year Century Multiple: ${yearCenturyMultiple}<br>
-            Country: ${country}<br>
             Year Decade: ${yearDecade}<br>
             ${objectImage}
             <!-- Other information you want to display in the popup -->
