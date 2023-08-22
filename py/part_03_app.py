@@ -56,7 +56,8 @@ def welcome():
         <div class="centered">
         <img src='https://c4.wallpaperflare.com/wallpaper/742/882/562/cat-figure-dog-wallpaper-preview.jpg'>
         <h4>Team 6 Project 3</h4>
-        <h3><a href='https://miwiki612.github.io/leaflet-challenge/' >Visual Data Explorer: ^⌯𖥦⌯^ ੭ Cats VS Dogs ૮ ＾ﻌ＾ა</a></h3>
+        <h3><a href='https://miwiki612.github.io/GIT-project3/' >Visual Data Explorer: ^⌯𖥦⌯^ ੭ Cats VS Dogs ૮ ＾ﻌ＾ა</a></h3>
+        <h3><a href='http://127.0.0.1:5000/riddhi'>Timeline showcasing cat and dog art pieces based on the year they were made.</a></h3>
         <h4>Support by The Metropolitan Museum of Art Collection API</h4>
         Choice your team! API with json for objects<br/>
         <a href=/api/v1.0/cat>search Cats</a><br/>
@@ -64,6 +65,41 @@ def welcome():
         <a href=/api/v1.0/dog>search Dogs</a><br/></div>
         </body></html>"""
     )
+
+@app.route("/riddhi")
+def Riddhi():
+    return ("""
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cats VS Dogs</title>
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+    <!-- Our CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+
+    <body>
+
+    <!-- Source timeline code: https://timeline.knightlab.com -->
+    <div style="border: 5px solid black; margin: 15px; height: 100%; width: 100%;">
+        <h1>Riddhi Mistry Plot C:</h1>
+        <p>Timeline showcasing cat and dog art pieces based on the year they were made.</p>
+        <iframe
+        src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1XQ9bAXj-E_1H6uOhyPhOX5bS8rAmPuxMTEym5Y5KPxM&font=Default&lang=en&initial_zoom=2"
+        width="100%" frameborder="0" height="100%"></iframe>
+    </div>
+    </body>
+
+    </html>
+            """)
 
 @app.route("/api/v1.0/<search_team>" )
 def temp_team( search_team ):

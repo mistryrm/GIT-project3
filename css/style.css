@@ -46,11 +46,22 @@ a:link {
   width: 150px;
 }
 
+/* plota animation */
+.percentselect{
+  position: fixed;
+  left: 1160px;
+  top: 15px;
+  font-size: 12px;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #52C5CA;
+}
+
+
 /* plota */
 .plota {
   position: fixed;
   left: 1160px;
-  top: 15px;
+  top: 45px;
   max-width: 310px;
   max-height:95%;
   bottom: 10px;
@@ -79,6 +90,7 @@ a:link {
   left: 250px;
   top: 54%;
   width: 900px;
+  bottom: 10px;
   max-height: 100%;
 }
 

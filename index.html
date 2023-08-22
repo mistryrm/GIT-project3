@@ -21,17 +21,32 @@
   </div>
 
   <!----->
+  <div class="percentselect" >
+    <button id="startButton">Start Animation</button>
+    <button id="stopButton">Stop Animation</button>
+  </div>
   <div id="plota" class="plota">
   </div>
 
   <!--timeline-->
   <div id="plotb" class="plotb" >
-  </div>  
+  </div>
   <input type="button" value="Surprise Me!" id="refresh" class="buttonb" onclick="timeLine()">
 
   <!----->
-  <div id="plotc">
-    <h1> plot c </h1>
+  <div class="barselect">
+    <select name="highlight" id="highLight">
+      <option value="true">HighLight Objects</option>
+      <option value="false">Regular Objects</option>
+      <option value="all">All Objects</option>
+    </select>
+    <label for="from">From Year: </label>
+    <input type="value" type="text" id="from" value="-100">
+    <label for="to">To Year: </label>
+    <input type="value" type="text" id="to" value="2000">
+    <input type="button" value="Search" onclick="rangeSearch()" >
+  </div>
+  <div id="plotc" class="plotc">
   </div>
 
   <!-- Leaflet JS -->
